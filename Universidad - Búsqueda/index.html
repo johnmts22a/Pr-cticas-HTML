@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title> UNIVERSIDAD X</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row bd-example-row-flex-cols">
+    <header>
+      <h1>UNIVERSIDAD X</h1>
+      <div class ="logo">
+        <img src="logo.jpg" alt="logo" width="100" height="100">
+     </div>
+    </header>
+    <main>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class = "titulo">
+        <h3>Sistema de búsqueda bibliográfica</h3>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h2 id ="titulo2"> Artículos y material bibliográfico </h2>
+      <br>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <select class="form-select" aria-label="Default select example">
+            <option selected> Escoja una opción </option>
+            <option value="1"> Autor </option>
+            <option value="2"> Título </option>
+            <option value="3"> Palabras clave </option>
+          </select>
+        </div>
+        <div class="col">
+          <input class="form-control" type="text" value="Escriba aquí" aria-label="readonly input example" readonly>
+        </div>
+        <div class="col">
+          <select class="form-select" aria-label="Default select example">
+            <option selected> Presentación </option>
+            <option value="1"> Informe técnico </option>
+            <option value="2"> Artículo congreso </option>
+            <option value="3"> Revista científica</option>
+          </select>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary"> Buscar </button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary"> Guardar </button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Código</th>
+              <th scope="col">Autor</th>
+              <th scope="col">Título</th>
+              <th scope="col">Palabras clave</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Copia</th>
+              <th scope="col">Ubicación copia (Si aplica)</th>
+              <th scope="col">Presentación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>John Martínez</td>
+              <td>Polímeros y su uso aeroespacial</td>
+              <td>Polímeros, aeroespacial, resistencia</td>
+              <td>johnmts22a@hotmail.com</td>
+              <td>Si</td>
+              <td>Estanterías</td>
+              <td>Revista científica</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Héctor Rodriguez</td>
+              <td>Mercados internacionales</td>
+              <td>Mercado,internacional,economía</td>
+              <td>hectorra@gmail.com</td>
+              <td>Si</td>
+              <td>Despacho</td>
+              <td>Artículo congreso</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Albeiro Castillo</td>
+              <td>Combustibles alternativos</td>
+              <td>combustibles, gnv, gas natural</td>
+              <td>albeirocb@gmail.com</td>
+              <td>Si</td>
+              <td>Estanterías</td>
+              <td>Informe técnico</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <footer>
+    <h2>Autor: John Martínez - Todos los derechos reservados - CESDE 2023</h2>
+  </footer>
+  </body>
+</html>

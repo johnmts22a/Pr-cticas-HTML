@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital la mano de dios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="mano">HOSPITAL LA MANO DE DIOS</h1>
+        <div class ="imagen">
+        <img src="mano de dios 2.jpg" alt="mano de dios" width="150" height="100">
+        </div>
+        <div class ="busqueda">
+        <h2>Buscar <input type="text"></h2>
+        </div>
+    </header>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id = "nuestros">SERVICIOS</h1>
+    <div class = "Servicios">
+        <div class = "Odontologia">
+            <h2>Odontología</h2>
+            <a href="https://es.wikipedia.org/wiki/Odontolog%C3%ADa"><img src="./odontologia.jpg" width="200" height="150" alt="Odontología"></a>
+        </div>
+        <div class = "Medicina">
+            <h2>Medicina general</h2>
+            <a href="https://es.wikipedia.org/wiki/Medicina"><img src="./medicina.jpg" width="200" height="150" alt="Medicina"></a>
+        </div>
+        <div class = "Cirugia">
+            <h2>Cirugía</h2>
+            <a href="https://es.wikipedia.org/wiki/Cirug%C3%ADa"><img src="./cirugia.jpg" width="200" height="155" alt="Cirugía"></a>
+        </div>
+        <div class = "Psiquiatria">
+            <h2>Psiquiatría</h2>
+            <a href="https://es.wikipedia.org/wiki/Psiquiatr%C3%ADa"><img src="./psiquiatria.jpg" width="200" height="150"></a>
+        </div>
+        <div class = "Psicologia">
+            <h2>Psicología</h2>
+            <a href="https://es.wikipedia.org/wiki/Psicolog%C3%ADa"><img src="psicologia.jpg" width="200" height="150" alt="psicologia"></a>
+        </div>
+        <div class = "Pediatria">
+            <h2>Pediatría</h2>
+            <a href="https://es.wikipedia.org/wiki/Pediatr%C3%ADa">><img src="pediatria.jpg" alt="Pediatria" width="200" height="150"></a>
+        </div>
+        <div class = "Cardiologia">
+            <h2>Cardiología</h2>
+            <a href="https://es.wikipedia.org/wiki/Cardiolog%C3%ADa"><img src="cardiologia.jpg" alt="cardiologia" width="200" height="150"></a>
+        </div>
+        <div class = "Oftamologia">
+            <h2>Oftamología</h2>
+            <a href="https://es.wikipedia.org/wiki/Oftalmolog%C3%ADa"><img src="oftalmologia.jpg" alt="oftalmologia" width="200" height="150"></a>
+        </div>
+    </div>
+    <hr>
+    <h1 id = "valores">VALORES INSTITUCIONALES</h1>
+    <div class = "institucion">
+        <div class = "mision">
+            <h3> MISIÓN </h3>
+            <h3>
+              <p>Colaborar para mejorar la salud y la calidad de vida de los ciudadanos, ofertando servicios sanitarios excelentes, con el paciente como centro de nuestra atención, y profesionales altamente cualificados.
+                 Asegurar la máxima colaboración e integración con la administración pública, con atención primaria y los servicios socio-sanitarios, promoviendo un beneficio mutuo y sostenible para toda la sociedad. </p>
+            </h3>
+        </div>
+        <div class="vision">
+            <h3> VISIÓN</h3>
+            <h3>
+              <p>Liderar la transformación del sistema sanitario actual para asegurar su sostenibilidad, promoviendo la innovación e incorporando las nuevas tecnologías disponibles.</p>
+            </h3>
+        </div>
+    </div>
+    <hr>
+    <div class = "formularios">
+    <div class = "citas">
+    <form action="Agendamiento">
+        <h2>AGENDIAMIENTO DE CITAS</h2>
+        <p>En este apartado podrás agendar tu cita con nuestros especialistas</p>
+        <h2>Nombre completo <input type="text" placeholder="Nombre"></h2>
+        <h2>Especialidad médica</h2>
+        <select>
+        <option>Escoja su especialidad</option>
+        <option>Odontología</option>
+        <option>Medicina general</option>
+        <option>Cirugía</option>
+        <option>Psiquiatría</option>
+        <option>Pediatría</option>
+        <option>Psicología</option>
+        <option>Cardiología</option>
+        <option>Oftalmología</option>
+        </select>
+        <label for="Documento"><h2>Documento de identidad</h2></label>
+        <select>
+        <option>Documento</option>
+        <option>Tarjeta de identidad</option>
+        <option>Cédula de ciudadanía</option>
+        <option>Cédula de extranjería</option>
+        <option>Pasaporte</option>
+       </select>
+       <h2>Número de documento <input type="text" placeholder="Documento"></h2>
+       <h2>Motivo de la consulta</h2><textarea id="consulta" name="consulta" rows="4" cols="50" wrap="soft" placeholder="Ingresa tus síntomas"></textarea>
+       <h2>Día de la cita</h2> <input type="date">
+       <h2>Hora de la cita</h2> <input type="time">
+       <br>
+       <br>
+       <input type="button" value="Guardar datos">
+       <input type="button" value="Limpiar campos">
+    </form>
+    </div>
+    <div class="datos">
+    <form action="Datos personales">
+        <h2> NOS GUSTARÍA CONOCERTE </h2>
+        <p> Como parte del acercamiento que quisieramos tener con las personas, nos gustaría que conocieras nuestros servicios y nuestra calidad humana. Puedes dejar tus datos para enviarte toda la información.</p>
+        <h2>Nombre <input type="text" placeholder="Tu nombre"></h2>
+        <h2>Fecha de nacimiento <input type="date"></h2>
+        <h2>Horario de contacto <input type="time"></h2>
+        <h2>Whatapp <input type="text" placeholder="Tu whatapp"></h2>
+        <h2>E-mail <input type="text" placeholder="Tu E-mail"></h2>
+        <input type="checkbox" value="Autorizacion"><h2>Autorizo tratamiento de datos personales</h2>
+        <br>
+        <br>
+        <input type="button" value="Guardar">
+        <input type="button" value="Limpiar">
+     </form>
+    </div>  
+   </div>
+   <hr>
+   <footer>
+    <ul>
+      <h2>¿Tienes dudas?, Contáctanos.</h2>
+      <li>
+         E-mail:pacientes@hospitalmanodedios.com
+     </li>
+     <li>
+         Línea de atención: 01800045678958
+     </li>
+     <li>
+         whatapp: (302) 2349896
+     </li>
+    </ul>
+    <img src="instagram.jpg" alt="contacto instagram" width="80" height="80">
+    <img src="facebook.jpg" alt="contacto facebook" width="80" height="80">
+  </footer> 
+</body>
+</html>

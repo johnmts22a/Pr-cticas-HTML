@@ -1,0 +1,241 @@
+
+header{
+   background-color: aquamarine;
+   text-align: center;
+   font-size: 100%;
+   height: 100px;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+}
+
+#mano{
+   text-align: center;
+   font-size: 300%;
+   transform: translateY(-20%);
+}
+
+#services{
+   text-align: center;
+}
+
+#nuestros{
+   text-align: center;
+   font-size: 30px;
+}
+
+.imagen{
+   text-align: left;
+   transform: translateY(-115%);
+}
+
+.busqueda{
+   text-align: right;
+   transform: translateY(-650%);
+}
+
+.Servicios{
+   display: grid;
+   width: 80%;
+   margin: auto;
+   background-color: burlywood;
+   padding: 20px;
+   border: 1px,solid,black;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto;
+   justify-content: center;
+}
+
+.Odontologia{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Medicina{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Cirugia{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Psiquiatria{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Psicologia{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Pediatria{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Cardiologia{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.Oftamologia{
+   width: 220px;
+   height: 260px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+footer{
+   text-align: left;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 150%;
+}
+
+.mision{
+   width: 600px;
+   height: 500px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.vision{
+   width: 600px;
+   height: 500px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.institucion{
+   display: grid;
+   width: 80%;
+   margin: auto;
+   background-color: burlywood;
+   padding: 20px;
+   border: 1px,solid,black;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto;
+   justify-content: center;
+}
+
+#valores{
+   text-align: center;
+   font-size: 30px;
+  }
+
+.citas{
+   width: 600px;
+   height: 1100px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.datos{
+   width: 600px;
+   height: 1100px;
+   border: 5px solid black;
+   background-color: lightgray;
+   margin:15px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 90%;
+   float: left;
+}
+
+.formularios{
+   display: grid;
+   width: 80%;
+   margin: auto;
+   background-color: burlywood;
+   padding: 20px;
+   border: 1px,solid,black;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto;
+   justify-content: center;
+}
+
+

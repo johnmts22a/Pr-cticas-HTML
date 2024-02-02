@@ -1,0 +1,29 @@
+header{
+    background-color: gray;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 220px;
+}
+
+.titulo{
+    text-align: left;
+    align-items: center;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    background-color: rgb(65, 64, 64);
+    color:white;
+    position: fixed;
+    left: 0;
+    right:0;
+    transform: translateY(-100%);
+}
+
+#titulo2{
+    text-align: center;
+}

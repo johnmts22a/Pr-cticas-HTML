@@ -1,0 +1,13 @@
+h4.class1 
+{
+    color: red;
+    font-style: italic ;
+}
+
+body
+{
+    background-image: url("imagen2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
